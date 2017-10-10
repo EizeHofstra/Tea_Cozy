@@ -1,11 +1,6 @@
-/*For development purposes*/
-div {
-  border: 1px solid pink;
-}
-
 /*For the whole body*/
 
-* {
+body {
   font-family: Helvetica, sans-serif;
   font-size: 22px;
   color: seashell;
@@ -129,4 +124,14 @@ nav span {
   opacity: 1;
   background: black;
   margin: 0px 20px;
+}
+
+/*Footer*/
+.contact {
+  height: 200px;
+}
+
+.copyright p{
+  text-align: left;
+  margin-left: 20px;
 }
