@@ -1,0 +1,50 @@
+/*For development purposes*/
+div {
+  border: 1px solid pink;
+}
+
+body {
+  font-family: Helvetica, sans-serif;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+
+/*Header*/
+
+.header {
+  display: flex;
+  position: fixed;
+  border-bottom: 1px solid seashell;
+  justify-content: space-between;
+  align-items: center;
+  height: 69px;
+  width: 100%;
+}
+
+.header a {
+  font-family: Helvetica, sans-serif;
+  font-size: 22px;
+  color: seashell;
+  opacity: 0.9;
+  text-decoration: underline;
+}
+
+.header nav {
+  display: flex;
+  align-items: right;
+  margin-right: 10px;
+}
+
+nav span {
+  list-style-type: none;
+  margin: 0px 10px;
+}
+
+.headlogo img {
+  margin-left: 10px;
+  height: 50px;
+  opacity: 0.9;
+}
