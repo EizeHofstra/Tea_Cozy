@@ -3,7 +3,9 @@ div {
   border: 1px solid pink;
 }
 
-body {
+/*For the whole body*/
+
+* {
   font-family: Helvetica, sans-serif;
   font-size: 22px;
   color: seashell;
@@ -23,6 +25,8 @@ body {
   height: 69px;
   width: 100%;
   background-color: black;
+  margin-top: -10px;
+  z-index: 10;
 }
 
 .header a {
@@ -54,6 +58,8 @@ nav span {
 .main {
   display: flex;
   justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
 /*Mission*/
@@ -67,10 +73,27 @@ nav span {
   align-items: center;
   flex-direction: column;
   justify-content: center;
-  margin-top: 69px;
+  margin-top: 59px;
 }
 
 .missiontext {
   background-color: black;
   width: 1200px;
+}
+
+/*Tea of the Month*/
+.teapictures {
+  display: flex;
+  width: 1000px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.teapic {
+  margin: 10px;
+}
+
+.teapic img {
+  height: 200px;
+  width: 300px;
 }
